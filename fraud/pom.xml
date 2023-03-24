@@ -8,9 +8,10 @@
         <artifactId>spring-cloud-microservices</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>customer</artifactId>
+    <artifactId>fraud</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -22,7 +23,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.5.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -34,5 +34,4 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
-
 </project>
