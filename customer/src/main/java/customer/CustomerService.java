@@ -11,7 +11,7 @@ public class CustomerService {
 
     private final CustomerRepository customerRepository;
     private final RestTemplate restTemplate;
-    private final String FRAUD_URL = "http://localhost:8081/api/v1/fraud-check/{customerId}";
+    private final String FRAUD_URL = "http://FRAUD/api/v1/fraud-check/{customerId}";
 
     public void registerCustomer(CustomerRegistrationRequest request) {
         Customer customer = Customer.builder()
