@@ -17,7 +17,7 @@
     "isFraudster": false
     }`
 
-  - http://localhost:8081/api/v1/fraud-check/2
-      `{
-      "isFraudster": false
-      }`
+- http://localhost:8081/api/v1/fraud-check/2
+    `{
+    "isFraudster": false
+    }`
